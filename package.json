@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.5",
+    "@mui/material": "^6.1.5",
     "@svgr/webpack": "^8.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,13 +22,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "format": "prettier --write './src/**/*.{ts,tsx,js,jsx,json,css,md}'",
-    "prepare": "husky install"
+    "test": "react-app-rewired test"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +59,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "customize-cra": "^1.0.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
@@ -64,7 +67,8 @@
     "globals": "^15.11.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.2.10",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "react-app-rewired": "^2.2.1"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [

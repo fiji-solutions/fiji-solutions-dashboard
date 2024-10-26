@@ -1,0 +1,21 @@
+body {
+  background-color: #100c2a; /* Deep dark background */
+  color: #b9b8ce; /* Main text color */
+}
+
+.header {
+  background-color: #1a1a2e; /* Use lighter dark for header to stand out slightly */
+}
+
+.header-nav-item {
+  font-weight: 500;
+  color: #b9b8ce; /* Light grayish-purple for normal state */
+  cursor: pointer;
+  text-transform: none; /* Keep text normal */
+  padding: 6px 12px;
+  transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.header-nav-item:hover {
+  color: #ffffff; /* Bright white on hover for contrast */
+}

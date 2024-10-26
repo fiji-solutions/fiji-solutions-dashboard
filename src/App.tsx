@@ -1,4 +1,5 @@
 import React from "react";
+import "@styles/dark-theme.css";
 
 const App: React.FC = () => {
   return (

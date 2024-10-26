@@ -1,0 +1,13 @@
+:root {
+  --background-color: #1a1a1a;
+  --primary-color: #2d2d2d;
+  --secondary-color: #333;
+  --text-color: #f0f0f0;
+  --accent-color: #4f81c7; /* Match ECharts default dark mode accent */
+  --border-color: #444;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
