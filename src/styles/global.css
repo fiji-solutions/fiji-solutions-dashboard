@@ -1,6 +1,6 @@
 body {
   background-color: #100c2a; /* Deep dark background */
-  color: #b9b8ce; /* Main text color */
+  color: #121214; /* Main text color */
 }
 
 .header {
@@ -9,7 +9,7 @@ body {
 
 .header-nav-item {
   font-weight: 500;
-  color: #b9b8ce; /* Light grayish-purple for normal state */
+  color: #72717d; /* Light grayish-purple for normal state */
   cursor: pointer;
   text-transform: none; /* Keep text normal */
   padding: 6px 12px;
@@ -17,5 +17,6 @@ body {
 }
 
 .header-nav-item:hover {
-  color: #ffffff; /* Bright white on hover for contrast */
+  color: #121214; /* Bright white on hover for contrast */
+  text-shadow: rgb(18, 18, 20) 0 0 0.5px;
 }

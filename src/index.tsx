@@ -6,7 +6,7 @@ import Header from "@components/Header";
 import Container from "@components/Container";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import darkTheme from "@styles/theme";
+import lightTheme from "@styles/theme";
 import "@styles/global.css";
 
 const root = ReactDOM.createRoot(
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lightTheme}>
       <CssBaseline />
       <Header />
       <Container>

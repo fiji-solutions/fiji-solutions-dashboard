@@ -1,19 +1,19 @@
 import { createTheme } from "@mui/material/styles";
 
-const darkTheme = createTheme({
+const lightTheme = createTheme({
   palette: {
-    mode: "dark",
-    primary: { main: "#100C2A" }, // Dark purple/blue for the main accent
+    mode: "light",
+    primary: { main: "#ffffff" }, // Dark purple/blue for primary accents
     background: {
-      default: "#100C2A", // Consistent with primary for a deep dark theme
-      paper: "#1A1A2E", // Slightly lighter, but still dark background for cards and containers
+      default: "#ffffff", // Pure white background for a clean look
+      paper: "#f5f5f5", // Light gray for cards, panels, and containers
     },
     text: {
-      primary: "#B9B8CE", // Light grayish-purple for main text
-      secondary: "#8A899B", // Slightly softer gray for less prominent text
+      primary: "#333333", // Dark gray for primary text, ensuring readability
+      secondary: "#555555", // Slightly softer gray for secondary text
     },
-    error: { main: "#e53935" }, // Bright red for errors, to maintain visual alertness
-    success: { main: "#00c853" }, // Bright green for success
+    error: { main: "#e53935" }, // Red for error messages
+    success: { main: "#00c853" }, // Green for success
     warning: { main: "#ffb300" }, // Yellow for warnings
   },
   typography: {
@@ -21,4 +21,4 @@ const darkTheme = createTheme({
   },
 });
 
-export default darkTheme;
+export default lightTheme;
